@@ -1,0 +1,82 @@
+.markdown-class {
+  @apply mt-5 p-5 tablet:w-4/5;
+}
+
+.markdown-class h1 {
+  @apply mt-5 text-2xl tablet:text-3xl font-bold;
+}
+.markdown-class h2 {
+  @apply mt-5 text-2xl;
+}
+.markdown-class h3 {
+  @apply mt-5 text-xl;
+}
+.markdown-class h4 {
+  @apply mt-5 text-lg;
+}
+.markdown-class h5 {
+  @apply mt-5 text-base;
+}
+.markdown-class h6 {
+  @apply mt-5 text-sm;
+}
+
+.markdown-class a {
+  @apply tablet:text-xl text-base text-blue-800 underline transition-all duration-200 ease-out hover:text-blue-600;
+}
+
+.markdown-class p {
+  @apply mt-2 tablet:text-xl leading-7 font-normal text-base;
+}
+
+.markdown-class strong {
+  @apply font-extrabold;
+}
+
+.markdown-class hr {
+  @apply my-5;
+}
+
+.markdown-class ol {
+  @apply my-5 ml-5;
+}
+
+.markdown-class ol li {
+  @apply text-base tablet:text-xl list-decimal;
+}
+
+.markdown-class ul {
+  @apply my-5 ml-5;
+}
+
+.markdown-class ul li {
+  @apply text-base tablet:text-xl list-disc;
+}
+
+.markdown-class blockquote {
+  @apply p-5 border-l-8 rounded-lg text-sm bg-slate-200 text-black;
+}
+
+.markdown-class blockquote p {
+  @apply text-black text-sm;
+}
+
+.markdown-class img {
+  @apply w-full tablet:w-2/3 my-5 object-cover rounded-lg;
+}
+
+.markdown-class code {
+  @apply tablet:text-lg text-sm bg-gray-400 px-1 py-0.5 rounded-md;
+}
+
+.markdown-class table {
+  @apply my-4 w-full overflow-hidden;
+}
+
+.markdown-class table th {
+  @apply px-6 py-3 tablet:text-xl text-base font-semibold border-b;
+}
+
+.markdown-class table td {
+  @apply px-6 py-4 tablet:text-xl text-base border-b;
+}

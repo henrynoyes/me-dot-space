@@ -1,0 +1,35 @@
+{
+  "name": "me-dot-space",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@fontsource/bungee-hairline": "^5.0.18",
+    "@fontsource/source-sans-pro": "^5.0.8",
+    "@fontsource/titillium-web": "^5.0.18",
+    "@fortawesome/fontawesome-svg-core": "^6.5.1",
+    "@fortawesome/free-brands-svg-icons": "^6.5.1",
+    "@fortawesome/free-solid-svg-icons": "^6.5.1",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "@headlessui/react": "^1.6.6",
+    "autoprefixer": "^10.4.7",
+    "gray-matter": "^4.0.3",
+    "gsap": "^3.10.4",
+    "next": "12.1.6",
+    "next-themes": "^0.2.0",
+    "postcss": "^8.4.13",
+    "react": "18.1.0",
+    "react-dom": "18.1.0",
+    "react-markdown": "^10.1.0",
+    "remark-gfm": "^4.0.1",
+    "tailwindcss": "^3.0.24"
+  },
+  "devDependencies": {
+    "eslint": "8.15.0",
+    "eslint-config-next": "12.1.6"
+  }
+}
