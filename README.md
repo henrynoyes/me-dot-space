@@ -3,4 +3,4 @@
   <a href="https://henrynoyes.space">henrynoyes.space</a>
 </h1>
 
-A space-themed project portfolio built using [NextJS](https://nextjs.org), [Tailwind](https://tailwindcss.com), [GSAP](https://gsap.com).
+A space-themed project portfolio built using [NextJS](https://nextjs.org), [Tailwind](https://tailwindcss.com), and [GSAP](https://gsap.com).
