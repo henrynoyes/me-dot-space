@@ -1,5 +1,5 @@
 .markdown-class {
-  @apply mt-5 p-5 tablet:w-4/5;
+  @apply p-4 tablet:w-4/5;
 }
 
 .markdown-class h1 {

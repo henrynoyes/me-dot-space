@@ -40,7 +40,7 @@ const ProjectPage = ({ post }) => {
           <div>
             <h1
               ref={textOne}
-              className="text-5xl laptop:text-6xl laptopl:text-8xl p-1 tablet:p-2 font-till w-4/5 mob:w-full"
+              className="text-5xl text-center laptop:text-6xl laptopl:text-8xl p-1 tablet:p-2 font-till w-4/5 mob:w-full"
             >
               {post.title}
             </h1>
@@ -48,7 +48,7 @@ const ProjectPage = ({ post }) => {
         </div>
         <div className="flex justify-center">
           <div>
-            <h2 className="text-md laptop:text-xl laptopl:text-2xl p-1 tablet:p-2 font-till w-4/5 mob:w-full">
+            <h2 className="text-md text-center laptop:text-xl laptopl:text-2xl p-1 tablet:p-2 font-till w-4/5 mob:w-full">
             {post.tagline}
             </h2>
           </div>

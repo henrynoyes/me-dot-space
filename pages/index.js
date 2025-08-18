@@ -83,11 +83,11 @@ export default function Home({ posts }) {
         </div>
 
 
-        <div className="mt-10 laptop:mt-10 p-2 laptop:p-1" ref={aboutRef}>
+        <div className="p-2 laptop:p-1" ref={aboutRef}>
         <About />
         </div>
 
-        <div className="mt-10 laptop:mt-30 p-2 laptop:p-1" ref={projectRef}>
+        <div className="mt-2 laptop:mt-30 p-2 laptop:p-1" ref={projectRef}>
           <h1 className="text-4xl m-2">My Projects</h1>
 
           <div className="mt-5 laptop:mt-10 grid grid-cols-1 tablet:grid-cols-3 gap-4">

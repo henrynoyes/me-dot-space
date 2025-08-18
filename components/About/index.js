@@ -23,11 +23,11 @@ const About = ({}) => {
           />
         </div>
         <div className="relative basis-1/2">
-          <h1 className="m-4 mt-10 laptop:mt-4 text-4xl">About Me</h1>
-          <p className="m-6 text-md laptop:text-xl">
+          <h1 className="m-4 mt-4 text-4xl">About Me</h1>
+          <p className="m-4 text-md laptop:text-xl">
             Hello, I&apos;m Henry. I like to spend my time solving hard problems and making things, two activities often intertwined. Below is a showcase of some of my projects.
           </p>
-          <p className="m-6 text-md laptop:text-xl"> 
+          <p className="m-4 text-md laptop:text-xl"> 
             I also conduct robotics research as a graduate student at Northeastern University. For a more academic introduction, please visit
             {" "}
             <Link href="https://henrynoyes.info">

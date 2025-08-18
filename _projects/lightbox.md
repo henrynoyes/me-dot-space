@@ -10,14 +10,14 @@ Inspired by a recent trip to the theater, my dad had the idea to build a backlit
 
 *\* A shoutout to [this great site](https://quinled.info/addressable-digital-leds/#DigitalBuy) which has in-depth articles on buying high-quality addressable LED strips.*
 
-| Item                                       |   Price  | Vendor                                                              |
-|:-------------------------------------------|---------:|:--------------------------------------------------------------------|
-| Normal LED Strip                           | 9.11     | [AliExpress](https://www.aliexpress.us/item/3256803836908040.html)  |
-| COB LED Strip                              | 24.32    | [AliExpress](https://www.aliexpress.us/item/3256802223680358.html)  |
-| Power Supply                               | 18.99    | [Amazon](https://www.amazon.com/dp/B013ETZUS0)                      |
-| Mylar Film                                 | 30.45    | Home Depot                                                          |
-| Lumber                                     | ~100     | N/A                                                                 |
-| Acryllic Plates (diffuser and front panel) | 150.30   | [Tap Plastics](https://www.tapplastics.com/)                        |
+| Item                                       | Price (USD) | Vendor                                                              |
+|:-------------------------------------------|------------:|:--------------------------------------------------------------------|
+| Normal LED Strip                           | 9.11        | [AliExpress](https://www.aliexpress.us/item/3256803836908040.html)  |
+| COB LED Strip                              | 24.32       | [AliExpress](https://www.aliexpress.us/item/3256802223680358.html)  |
+| Power Supply                               | 18.99       | [Amazon](https://www.amazon.com/dp/B013ETZUS0)                      |
+| Mylar Film                                 | 30.45       | Home Depot                                                          |
+| Lumber                                     | ~100        | N/A                                                                 |
+| Acryllic Plates (diffuser and front panel) | 150.30      | [Tap Plastics](https://www.tapplastics.com/)                        |
 
 # Photos
 
