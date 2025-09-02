@@ -6,7 +6,7 @@ coverImage: /images/projects/lightbox/lightbox.jpg
 slug: lightbox
 ---
 
-Inspired by a recent trip to the theater, my dad had the idea to build a backlit movie poster display for the basement. For the standard double-sided 27x40in poster size, we were confident we could put together a more premium-quality build than the [online stores](https://glowbox.shop/products) at the market price of $300. I took care of the electronics, and [my brother](https://elliotnoyes.com) whipped up a maple frame with a custom cove molding. Below are some photos along with a rough bill of materials. The official E.T. poster is from [movieposters.com](https://movieposters.com).
+Inspired by a recent trip to the theater, my dad had the idea to build a backlit movie poster display for the basement. For the standard double-sided 27x40in poster size, we were confident we could put together a more premium-quality build than the [online stores](https://glowbox.shop/products) at the market price of $300. I took care of the electronics, and [my brother](https://elliotnoyes.com/light-box) whipped up a maple frame with a custom cove moulding. Below are some photos along with a rough bill of materials. The official E.T. poster is from [movieposters.com](https://movieposters.com).
 
 *\* A shoutout to [this great site](https://quinled.info/addressable-digital-leds/#DigitalBuy) which has in-depth articles on buying high-quality addressable LED strips.*
 
