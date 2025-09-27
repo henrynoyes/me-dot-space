@@ -2,7 +2,7 @@
 date: '2024-08-26'
 title: JARVIS-GPT
 tagline: Just a Rather Very Intelligent System
-coverImage: /images/projects/jarvis/jarvis_logo.png
+coverImage: /images/projects/jarvis/jarvis-screenshot.png
 slug: jarvis-gpt
 repo: https://github.com/henrynoyes/jarvis-gpt
 ---
