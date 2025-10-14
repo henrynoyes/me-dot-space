@@ -17,7 +17,7 @@ The goal of this project was to create a tech-infused birdhouse that enabled a 2
 
 ![birdhouse](/images/projects/birdcam/birdhouse.jpg)
 
-The streaming service is configured as a cron job and the bash script can be viewed [here](https://github.com/henrynoyes/birdcam/blob/master/stream.sh). It uses libcamera and VLC to deploy a local RTSP stream. Future upgrades to the project may include a microphone to stream audio. Below are some gifs from the first season of operation. We were lucky enough to house a family of Eastern bluebirds and a family of carolina wrens. Check the [github repo](https://github.com/henrynoyes/birdcam) for more details as we prepare for the upcoming season.
+The streaming service is configured as a cron job, with options for [local RTSP streaming](https://github.com/henrynoyes/birdcam/blob/master/stream_local.sh) and [YouTube livestreaming](https://github.com/henrynoyes/birdcam/blob/master/stream_youtube.sh). Future upgrades to the project may include a microphone to stream audio. Below are some gifs from the first season of operation. We were lucky enough to house a family of Eastern bluebirds and a family of carolina wrens. Check the [github repo](https://github.com/henrynoyes/birdcam) for more details as we prepare for the upcoming season.
 
 # Eastern Bluebirds
 
