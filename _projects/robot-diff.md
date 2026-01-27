@@ -13,10 +13,10 @@ Even if it appeared to be a small change like decreasing the length of a collisi
 
 This experience led me to create `robot-diff`. `robot-diff` is exactly what it sounds like: a diffing tool for robot models. It generates human-readable diffs for URDF, SDF, MJCF, and USD models (with some assumptions on the input conventions). The output diffs can be filtered by category and styled by three built-in formatters. The tool is written in in pure Python, with the full [Astral](https://astral.sh/) stack of [uv](https://github.com/astral-sh/uv) + [Ruff](https://astral.sh/ruff) + [ty](https://github.com/astral-sh/ty), and [pytest](https://docs.pytest.org/en/stable/) for testing. Below are some examples of `robot-diff` in action.
 
-![status format](https://raw.githubusercontent.com/henrynoyes/robot-diff/refs/heads/master/docs/imgs/status-format.png)
+![status format](https://raw.githubusercontent.com/henrynoyes/robot-diff/refs/heads/master/docs/imgs/status-diff-format.png)
 
-![category format](https://raw.githubusercontent.com/henrynoyes/robot-diff/refs/heads/master/docs/imgs/category-format.png)
+![category format](https://raw.githubusercontent.com/henrynoyes/robot-diff/refs/heads/master/docs/imgs/category-diff-format.png)
 
-![git format](https://raw.githubusercontent.com/henrynoyes/robot-diff/refs/heads/master/docs/imgs/git-format.png)
+![git format](https://raw.githubusercontent.com/henrynoyes/robot-diff/refs/heads/master/docs/imgs/git-diff-format.png)
 
 As a side project, I spent a couple of hours messing around in Go creating a fork of [termshot](https://github.com/homeport/termshot). I felt the original project lacked cosmetic customization, so I made some minor modifications in [my fork](https://github.com/henrynoyes/termshot) to produce the "termshots" you see above for the `robot-diff` readme.
