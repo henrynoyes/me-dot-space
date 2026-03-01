@@ -10,6 +10,8 @@ import { useTheme } from "next-themes";
 import Button from "../components/Button";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub } from '@fortawesome/free-brands-svg-icons'
+import ViserEmbed from "../components/ViserEmbed";
+import VideoEmbed from "../components/VideoEmbed";
 
 const ProjectPage = ({ post }) => {
 
@@ -61,7 +63,28 @@ const ProjectPage = ({ post }) => {
           </Button>
         </div>
         )}
+        {post.video && (
+        <div className="container tablet:w-4/5 mx-auto mt-10 px-2">
+          <VideoEmbed
+            videoPath={post.video.path}
+            caption={post.video.caption}
+          />
+        </div>
+      )}
         <ContentSection content={post.content}></ContentSection>
+        { post.viserScenes && (
+          <div className="container tablet:w-4/5 mx-auto mt-10 px-2">
+            <div className="grid grid-cols-1 laptop:grid-cols-2 gap-6">
+              {post.viserScenes.map((scene, idx) => (
+                <ViserEmbed
+                  key={idx}
+                  scenePath={scene.path}
+                  caption={scene.caption}
+                />
+              ))}
+            </div>
+          </div>
+        )}
         <Footer />
       </div>
     </div>
@@ -76,7 +99,9 @@ export async function getStaticProps({ params }) {
     "coverImage",
     "slug",
     "content",
-    "repo"
+    "repo",
+    "viserScenes",
+    "video"
   ]);
 
   return {
