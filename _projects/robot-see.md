@@ -17,6 +17,8 @@ viserScenes:
     caption: "M4 Collision Primitives"
 ---
 
+[YouTube link](https://www.youtube.com/watch?v=O8cmVK34qgA)
+
 # Description
 
 Visualization enables fast and accurate development of robot models. It establishes a tight feedback loop that is essential in validating the state of a model. Without it, errors in the model can go unchecked, potentially wasting significant time and effort in resulting simulation work.
