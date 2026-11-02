@@ -28,7 +28,7 @@ const About = ({}) => {
             Hello, I&apos;m Henry. I like to spend my time solving hard problems and making things, two activities often intertwined. Below is a showcase of some of my projects.
           </p>
           <p className="m-4 text-md laptop:text-xl"> 
-            I also conduct robotics research as a graduate student at Northeastern University. For a more academic introduction, please visit
+            In the past, I conducted robotics research as a graduate student at Northeastern University. For a more academic introduction, please visit
             {" "}
             <Link href="https://henrynoyes.info">
             <a className={theme === "dark" ? "text-link-red" : "text-link-blue"} target="_blank" rel="noopener noreferrer">henrynoyes.info</a>
